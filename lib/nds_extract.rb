@@ -13,6 +13,7 @@ def directors_totals(nds)
     #extract numbers
     while new_index < nds[element_index][:movies].length do
       total = total + nds[element_index][:movies][new_index][:worldwide_gross]
+      new_index += 1
     end
     result << "#{nds[element_index][:name]"=>#{total},"
     element_index += 1

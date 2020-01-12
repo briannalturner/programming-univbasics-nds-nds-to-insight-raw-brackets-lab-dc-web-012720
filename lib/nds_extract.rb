@@ -4,7 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   pp nds
   element_index = 0
-  # while element_index < nds[0],length
+  # while element_index < nds.length
   
   
   
@@ -26,4 +26,5 @@ def directors_totals(nds)
   result
 end
 
-puts directors_database[0]
+
+directors_totals(directors_database)

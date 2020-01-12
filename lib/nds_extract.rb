@@ -3,6 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   element_index = 0
+  result = {}
   
   #while element index is less than num of directors
   while element_index < nds.length do
@@ -17,9 +18,6 @@ def directors_totals(nds)
     result[nds[element_index][:name]] = total
     element_index += 1
   end
-  result = {
-
-  }
   result
 end
 

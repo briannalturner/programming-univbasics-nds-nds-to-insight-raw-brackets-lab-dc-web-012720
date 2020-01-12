@@ -24,4 +24,3 @@ def directors_totals(nds)
 end
 
 
-puts directors_database.length

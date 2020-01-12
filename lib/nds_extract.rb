@@ -27,4 +27,3 @@ def directors_totals(nds)
 end
 
 puts directors_database[0]
-directors_totals(directors_database)

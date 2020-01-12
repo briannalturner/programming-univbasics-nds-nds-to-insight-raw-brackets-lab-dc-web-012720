@@ -15,7 +15,7 @@ def directors_totals(nds)
       total = total + nds[element_index][:movies][new_index][:worldwide_gross]
       new_index += 1
     end
-    result << "#{nds[element_index][:name]"=>#{total},"
+    result[element_index] = "#{nds[element_index][:name]"=>#{total},"
     element_index += 1
   end
 

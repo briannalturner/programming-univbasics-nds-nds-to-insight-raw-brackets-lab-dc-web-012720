@@ -6,7 +6,6 @@ def directors_totals(nds)
   
   #while element index is less than num of directors
   while element_index < nds.length do
-    nds[element_index][:movies]
     total = 0
     new_index = 0
     

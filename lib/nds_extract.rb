@@ -2,9 +2,19 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  pp nds
   element_index = 0
-  # while element_index < nds.length
+  
+  #while element index is less than num of directors
+  while element_index < nds.length do
+    nds[element_index][:movies]
+    total = 0
+    new_index = 0
+    
+    #extract numbers
+    while new_index < nds[element_index][:movies].length do
+      total = total + nds[element_index][:movies][new_index][:worldwide_gross]
+    end
+  end
   
   
   
